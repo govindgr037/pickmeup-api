@@ -32,7 +32,7 @@ public class UserDao {
 		
 		try
 		{		
-			session.saveOrUpdate(user);	 
+			session.saveOrUpdate(user);
 			session.getTransaction().commit();
 		}
 		catch(Exception ex)
